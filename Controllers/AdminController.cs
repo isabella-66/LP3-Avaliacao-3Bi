@@ -5,14 +5,14 @@ using AvaliacaoLP3.ViewModels;
 
 namespace AvaliacaoLP3.Controllers;
 
-public class UserController : Controller
+public class AdminController : Controller
 {
     private static List<Shopping> stores = new List<Shopping>
     {
         new Shopping(1, "Piso 2", "Leitura", "Entre no mundo dos livros e conheça outros milhares mundos!", "Loja", "leitura@hotmail.com"),
         new Shopping(2, "Piso 1", "Kalunga", "Os mais diversos materiais que você precisa!", "Loja", "kalunga@hotmail.com"),
-        new Shopping(3, "Piso 3", "Mr Cheney", "Os cookies americanos originais mais deliciosos para você se deliciar!", "Kiosk", "mrcheney@hotmail.com"),
-    }; //fazer classe separada só para passar esse valores, ao invés de repetir aqui e no admin
+        new Shopping(33, "Piso 3", "Mr Cheney", "Os cookies americanos originais mais deliciosos para você se deliciar!", "Kiosk", "mrcheney@hotmail.com"),
+    }; //fazer classe separada só para passar esse valores, ao invés de repetir aqui e no user
 
     public IActionResult Index()
     {
