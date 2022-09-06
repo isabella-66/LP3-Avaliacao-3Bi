@@ -16341,6 +16341,11 @@
       "FilePath": "/home/estudante/SP3045463/AvaliacaoLP3/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/estudante/SP3045463/AvaliacaoLP3/Views/Admin/Show.cshtml",
+      "TargetPath": "Views\\Admin\\Show.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
