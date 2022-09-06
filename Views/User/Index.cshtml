@@ -1,0 +1,43 @@
+@model List<AvaliacaoLP3.ViewModels.Shopping>
+
+@{
+    ViewData["Title"] = "Lojas e Quiosques";
+}
+
+<div class="text-center">
+    <h1>Lojas e Quiosques</h1><br>
+</div>
+
+@if(Model.Count == 0) 
+{
+    <p>Nenhum(a) loja/quiosque cadastrado(a)</p>
+}
+else
+{
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Piso</th>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Loja/Quiosque</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+
+        @foreach(var store in Model)
+        {
+            <tbody>
+                <tr>
+                    <td>@store.Id</td>
+                    <td>@store.Floor</td>
+                    <td>@store.Name</td>
+                    <td>@store.Description</td>
+                    <td>@store.Store</td>
+                    <td>@store.Email</td>
+                </tr>
+            </tbody>
+        }
+    </table>
+}
