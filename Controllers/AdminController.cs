@@ -29,6 +29,11 @@ public class AdminController : Controller
         return View(stores[id-1]);
     }
 
+    public IActionResult Create() 
+    {
+        return View();
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
