@@ -24,10 +24,10 @@ public class AdminController : Controller
         return View(stores[id-1]);
     }
 
-    //public void Delete(int id)
-    //{
-    //    stores[id] = null;
-    //}
+    public IActionResult Delete(int id)
+    {
+        return View(stores[id-1]);
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

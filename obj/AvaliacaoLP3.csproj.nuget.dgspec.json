@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/estudante/SP3045463/AvaliacaoLP3/AvaliacaoLP3.csproj": {}
+    "/home/estudante/Documentos/SP3045463/LP3-Avaliacao-3Bi/AvaliacaoLP3.csproj": {}
   },
   "projects": {
-    "/home/estudante/SP3045463/AvaliacaoLP3/AvaliacaoLP3.csproj": {
+    "/home/estudante/Documentos/SP3045463/LP3-Avaliacao-3Bi/AvaliacaoLP3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/estudante/SP3045463/AvaliacaoLP3/AvaliacaoLP3.csproj",
+        "projectUniqueName": "/home/estudante/Documentos/SP3045463/LP3-Avaliacao-3Bi/AvaliacaoLP3.csproj",
         "projectName": "AvaliacaoLP3",
-        "projectPath": "/home/estudante/SP3045463/AvaliacaoLP3/AvaliacaoLP3.csproj",
+        "projectPath": "/home/estudante/Documentos/SP3045463/LP3-Avaliacao-3Bi/AvaliacaoLP3.csproj",
         "packagesPath": "/home/estudante/.nuget/packages/",
-        "outputPath": "/home/estudante/SP3045463/AvaliacaoLP3/obj/",
+        "outputPath": "/home/estudante/Documentos/SP3045463/LP3-Avaliacao-3Bi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/estudante/.nuget/NuGet/NuGet.Config"

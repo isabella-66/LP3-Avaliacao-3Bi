@@ -14,7 +14,7 @@
 }
 else
 {
-    <table border="1">
+    <table border='1'>
         <thead>
             <tr>
                 <th>Id</th>
@@ -31,15 +31,14 @@ else
         {
             <tbody>
                 <tr>
-                        <td>@store.Id</a></td>
+                        <td>@store.Id</td>
                         <td>@store.Floor</td>
                         <td>@store.Name</td>
                         <td>@store.Description</td>
                         <td>@store.Store</td>
                         <td>@store.Email</td>
                         <td><a href="Admin/Show/@store.Id">Detalhes</a></td>
-                        <td><button>Excluir</button></td>
-                    
+                        <td><input type="button" onclick="Views.Admin.Delete" value="Excluir"></td>
                 </tr>
             </tbody>
         }
